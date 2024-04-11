@@ -6,7 +6,7 @@ You need to have a working ```kubectl``` binary installed.
 - create folder for the plugin ```mkdir ~/kplugins``` \
 I use the **~/kplugins** folder, you may change it according your needs.
 - add folder to the **PATH** variable
-- copy plugin file to your system \ 
+- copy plugin file to your system \
  ```curl https://raw.githubusercontent.com/alexanderlukjanenko/kubectl-plugin/main/scripts/kubectl-kubeplugin -o ~/kplugins/kubectl-kubeplugin```
 - add executable rights \
 ```chmod u+x ~/kplugins/kubectl-kubeplugin```
@@ -16,7 +16,7 @@ I use the **~/kplugins** folder, you may change it according your needs.
 # Usage
 - as bash script \
     ```bash kubectl-kubeplugin```
-- as kubectl plugin
+- as kubectl plugin \
     ```kubectl kubeplugin```
 
 # Parameters
